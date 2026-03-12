@@ -1,0 +1,51 @@
+/* Color de fondo sutil para toda la página */
+body {
+  background-color: #f8f8f8;
+}
+
+/* Estilos de la Navbar 
+*/
+.navbar-brand {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+/* Fondo distinto para el menú desplegable en móviles */
+#nav-list {
+  background-color: #e2e2e2;
+  margin: 0;
+  border-top: 1px solid #ccc;
+}
+
+#nav-list li {
+  border-bottom: 1px solid #d4d4d4;
+}
+
+#nav-list li a {
+  color: #333;
+  font-size: 1.2em;
+}
+
+/* Estilos de las secciones de contenido 
+*/
+.menu-section {
+  background-color: #ffffff;
+  border: 2px solid #333;
+  padding: 15px;
+  margin-bottom: 20px;
+  /* Altura muy grande para forzar el scroll, tal como pide el ejercicio */
+  height: 700px; 
+  position: relative;
+}
+
+.menu-section h3 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.menu-section a {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
